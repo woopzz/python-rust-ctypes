@@ -1,0 +1,10 @@
+[package]
+name = "python-rust-ctypes"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "demo"
+crate-type = ["cdylib"]
+
+[dependencies]
